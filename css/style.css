@@ -1,0 +1,16 @@
+.videoContent {
+  margin-top: 60px;
+}
+
+#question {
+  font-size: 60px;
+}
+
+#answer {
+  font-size: 60px;
+  margin-top: 500px;
+}
+body {
+  background: url(../image/it.jpg) no-repeat center center fixed;
+  background-size: cover;
+}

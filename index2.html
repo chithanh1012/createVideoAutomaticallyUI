@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style2.css" />
+    <title>Auto Make Video Tools</title>
+  </head>
+  <body>
+    <button id="start">Start</button>
+    <!-- <h1 class="text-center p-2" style="background: #FF0000;color: white;">
+      <b style="color: yellow;">&#x27A1;</b>Theo dõi kênh "Lớp học tiếng Nhật
+      Aho" để tiện cập nhật các bài học mới nhất
+    </h1> -->
+    <h1 class="text-center p-2" style="background: blueviolet; color: white;">
+      <b style="color: yellow;">9</b> phút - Luyện tập phản xạ Kaiwa tiếng Nhật
+      - Bài 46 Minna - N4
+    </h1>
+
+    <nav
+      class="navbar navbar-expand-md navbar-light fixed-bottom pb-2"
+      id="main-nav"
+    >
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <img
+            class="rounded-circle"
+            src="./image/logo.png"
+            width="50"
+            height="50"
+            alt=""
+          />
+          <h1 class="d-inline align-middle text-white">
+            4 Bước để tự tin nói Tiếng Nhật
+          </h1>
+          <span style="font-size: 30px;" class="float-right">
+            <i class="fab fa-youtube text-danger"></i>Youtube: Lớp học tiếng
+            nhật Aho</span
+          >
+
+          <ul
+            class="navbar-nav border border-success rounded bg-white p-2 mt-1"
+          >
+            <li class="nav-item">
+              <i class="fas fa-headphones"></i> Nghe tiếng Việt >>>
+            </li>
+            <li class="nav-item">
+              <i class="fas fa-microphone"></i> Nói lại bằng tiếng Nhật >>>
+            </li>
+            <li class="nav-item">
+              <i class="fas fa-play-circle"></i> Nghe và kiểm tra đáp án >>>
+            </li>
+            <li class="nav-item">
+              <i class="fas fa-play-sync"></i> Thực hành lại nhiều lần >>>
+            </li>
+            <li class="nav-item">
+              <i class="fas fa-broadcast-tower"></i> Nói như hát
+            </li>
+          </ul>
+        </a>
+      </div>
+    </nav>
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="left">
+            <img
+              class="rounded-circle"
+              src="./image/hourglass.gif"
+              width="100px"
+              height="100px"
+              alt=""
+            />
+            <div class="card rounded-pill">
+              <div class="card-body">
+                <h2 id="answer">Câu trả lời...</h2>
+              </div>
+            </div>
+            <img src="./image/nobita.png" alt="" class="cartoon" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="right">
+            <div class="card rounded-pill">
+              <div class="card-body">
+                <h2 id="question">Câu hỏi...</h2>
+              </div>
+            </div>
+            <img src="./image/rteacher3.gif" alt="" class="teacher" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/speech.js"></script>
+  </body>
+</html>

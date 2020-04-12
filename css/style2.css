@@ -1,0 +1,29 @@
+.videoContent {
+  margin-top: 60px;
+}
+
+#question {
+  font-size: 50px;
+}
+
+#answer {
+  font-size: 50px;
+}
+body {
+  background: url(../image/forest3.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#left {
+  margin-top: 100px;
+}
+.cartoon {
+  height: 300px;
+}
+
+#right {
+  margin-top: 100px;
+}
+.teacher {
+  height: 500px;
+}

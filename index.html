@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Auto Make Video Tools</title>
+  </head>
+  <body>
+    <div class="container" id="setting">
+      <div class="form-group row">
+        <button class="button-action" id="start">Start</button>
+        <button class="button-action" id="reverse">Reverse</button>
+      </div>
+      <div class="pull-right">
+        <button click="localStorage.clear();" class="float-right">
+          Clear storage
+        </button>
+      </div>
+    </div>
+    <nav
+      class="navbar navbar-expand-md navbar-light fixed-bottom pb-2"
+      id="main-nav"
+    >
+      <div class="container-fluid">
+        <a href="#home" class="navbar-brand float-right">
+          <h1 class="d-inline align-middle text-white">
+            Thực hành các bước sau để đạt hiệu quả cao nhất
+          </h1>
+
+          <ul
+            class="navbar-nav border border-success rounded bg-white p-2 mt-1"
+          >
+            <li class="nav-item">
+              <i class="fas fa-headphones"></i> Nghe tiếng nhật >>>
+            </li>
+            <li class="nav-item">
+              Đoán nghĩa >>>
+            </li>
+            <li class="nav-item">
+              Nghe nghĩa >>>
+            </li>
+            <li class="nav-item">
+              <i class="fas fa-microphone"></i> Trả lời lại >>>
+            </li>
+            <li class="nav-item">
+              <i class="fas fa-broadcast-tower"></i> Nghe đi nghe lại nhiều
+              lần(thụ động + chủ động)
+            </li>
+          </ul>
+        </a>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="videoContent">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col">
+                <h1 class="text-white bg-primary p-2 border bg-dark display-4">
+                  <b>Từ vựng tiếng nhật chuyên ngành IT</b> <br />
+                </h1>
+                <h1 class="text-white bg-danger">
+                  #1. Chủ đề: Từ vựng thông dụng nhất
+                </h1>
+              </div>
+            </div>
+            <br /><br /><br /><br /><br /><br />
+            <div class="row">
+              <div class="col-md-3 text-white">
+                <h1 class="">日本語：</h1>
+                <h1 class="mt-5">English:</h1>
+                <h1 class="mt-5">Tiếng Việt:</h1>
+              </div>
+              <div class="col-md-5 text-white">
+                <h1 class="text-warning" id="ja">...</h1>
+                <h1 class="mt-5" id="en">...</h1>
+                <h1 class="text-warning mt-5" id="vi">...</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=JBejVlhy"></script>
+    <script src="./js/speechword.js"></script>
+  </body>
+</html>
